@@ -1,0 +1,10 @@
+# coding: utf-8
+class HelloController < ApplicationController
+  def index
+    render :text=> '縺薙ｓ縺ｫ縺｡縺ｯ縲∽ｸ也阜'
+  end
+
+  def view
+    @msg = '縺薙ｓ縺ｫ縺｡縺ｯ縲∽ｸ也阜!'
+  end
+end
