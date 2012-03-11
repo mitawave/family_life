@@ -1,0 +1,12 @@
+<table border="1">
+  <tr>
+	<th>日付</th><th>仕事</th>
+  </tr>
+
+  <% @mamaworks.each do |mamawork| %>
+  <tr>
+	<td><%= mamawork.date %></td>
+	<td><%= mamawork.work %></td>
+  </tr>
+  <% end %>
+</table>
